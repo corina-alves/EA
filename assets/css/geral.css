@@ -1451,8 +1451,9 @@ section,
 
 /* -------------------------------------------------------------- */
 .section.testimonials {
-  padding: 60px 0px 20px 0px;
-  background-color: var(--accent-color);
+  padding: 60px 0px 60px 0px;
+  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  
 }
 .testimonials-container {
   width: 100%;
@@ -1541,77 +1542,12 @@ section,
 }
 
 .dot.active {
-  background-color: var(--green-color);
+  background-color: var(--blue-escuro-color);
 }
 
-/* .section.testimonial {
-  padding: 60px 0px 20px 0px;
-  background-color: var(--accent-color);
-}
-
-.testimonials-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  width: 100%;
-  max-width: 1200px;
-  padding: 30px;
-}
-.testimonial h5{
-  padding: 20px;
-  border-bottom: #dbdbdb solid 1px;
-  color: var(--contrast-color);
-}
-.testimonial-card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.testimonial-card:hover {
-  transform: translateY(-10px);
-}
-
-.testimonial-text {
-  font-size: 1rem;
-  color: #333;
-  margin-bottom: 15px;
-}
-
-.testimonial-author {
-  font-weight: bold;
-  color: #555;
-  font-size: 0.9rem;
-}
-
-.nav-buttons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.nav-button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  margin: 5px;
-  cursor: pointer;
-  background-color: #333;
-  color: white;
-  transition: background-color 0.3s ease;
-}
-
-.nav-button:hover {
-  background-color: #555;
-} */
 .card li{
-  border: darkblue ;
+ 
+  list-style: none;
 }
 .section.capcursos {
   padding: 60px 0px 60px 0px;
