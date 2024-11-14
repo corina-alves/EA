@@ -1493,7 +1493,8 @@ section,
 .testimonial {
   display: none;
   text-align: left;
-  height: 15vh;
+
+  min-height: 15vh;
 }
 
 .testimonial.active {
@@ -1523,6 +1524,7 @@ section,
   font-style: italic;
   line-height: 1.6;
   margin-top: 10px;
+ 
 }
 
 .dots {
@@ -1701,4 +1703,38 @@ section,
 margin: 5px;}
 .events li.past-event {
   display: none;
+}
+
+
+
+/* --------------------------------------------------- */
+/* Estilize os botões de paginação */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+}
+
+#pageInfo {
+  margin: 0 10px;
+}
+
+.card.livro img:hover{
+  border: #0033CC solid 0px;
+  transform: scale(1.1);
 }

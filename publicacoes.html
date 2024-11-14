@@ -188,10 +188,9 @@
     <section class="links-uteis section">
         <div class="container">
           <div class="row gy-4">
-
             <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
               <h4 class=""> Ações e Notícias da Escola das Águas</h4>
-              <div class="uteis-list">
+              <div id="uteisList" class="uteis-list">
                 <a href="https://governosp.sharepoint.com/sites/intranet.daee/SitePages/Curso-de-Reda%C3%A7%C3%A3o-de-Nota-T%C3%A9cnica(1).aspx" target="_blank" class="active">Curso de Redação de Nota Técnica no CTH - Escola das Águas</a>
                 <a href="https://www.revistatae.com.br/Noticia/85190/seminario-agua-nosso-bem-mais-precioso-promovido-pela-escola-das-aguas-reune-publico-expressivo" target="_blank">Seminário Água Nosso Bem Mais Precioso promovido pela Escola das Águas reúne público expressivo</a>
                 <a href="https://governosp.sharepoint.com/sites/intranet.daee/SitePages/Submeta-seu-trabalho-t%C3%A9cnico-para-o-XXIII-Congresso-Brasileiro-de-%C3%81guas-Subterr%C3%A2neas-Submeta-seu-trabalho-t%C3%A9c.aspx" target="_blank">Submeta seu trabalho técnico para o XXIII Congresso Brasileiro de Águas Subterrâneas</a>
@@ -202,9 +201,13 @@
                 <a href="https://www.youtube.com/watch?v=6I1S87vwJvA" target="_blank">	Conferência EcoCidadã - Hidrocast: Explorando a Drenagem Urbana</a>
                 <a href="https://www.youtube.com/@agenciaspaguas" target="_blank">Link do canal do youtube com todos os conteúdos </a>
               </div>
-  
-    
           </div>
+      
+        </div>
+        <div class="pagination mb-5">
+          <button id="prev" onclick="prevPage()">Anterior</button>
+          <span id="pageInfo"></span>
+          <button id="next" onclick="nextPage()">Próximo</button>
         </div>
         </div>
       </section>
@@ -283,7 +286,7 @@
 
   <script src="assets/js/geral.js"></script>
   <script src="assets/js/calendar.js"></script>
-
+  <script src="assets/js/pagination.js"></script>
 </body>
 
 </html>
