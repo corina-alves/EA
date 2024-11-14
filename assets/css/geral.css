@@ -708,6 +708,7 @@ section,
 .imagensCarousel .carousel {
   width: 100%;
   min-height: 70vh;
+
   padding: 0;
   margin: 0;
   background-color: var(--background-color);
@@ -1572,4 +1573,49 @@ margin: 5px;}
 .card.livro img:hover{
   border: #0033CC solid 0px;
   transform: scale(1.1);
+}
+/* -------------------------------------------- */
+.parceiros.section{
+  background-color: var(--blue-color);
+}
+.parceiros .container{
+  padding: 48px;
+}
+.parceiros img{
+  width:100%;
+}
+
+/* ------------------------------------------------------- */
+.contact .info-item {
+  background-color: var(--surface-color);
+  padding: 20px 0 30px 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact .info-item i {
+  font-size: 20px;
+  color: var(--accent-color);
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  border: 2px solid color-mix(in srgb, var(--accent-color), transparent 40%);
+}
+
+.contact .info-item h3 {
+  font-size: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
 }
