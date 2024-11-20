@@ -189,20 +189,31 @@
     </div>
 <section class="section capcursos">
 <div class="container">
-<h2 class="h2Underline">Cursos disponíveis</h2>
+<!-- <h2 class="h2Underline">Cursos disponíveis</h2> -->
 <div class="card-group">
   <div class="col">
   <div class="card evento">
-   <a href=""> <img src="assets/img/cursos/cursoRedacaoCTH.webp" class="img-fluid"></a>
-    <div class="title">Curso </div>
-    <div class="descricao">Descrição do curso</div>
+   <!-- <a href=""> <img src="assets/img/cursos/cursoRedacaoCTH.webp" class="img-fluid"></a>
+    <div class="title">Curso </div> -->
+    <div class="descricao">Nenhum curso disponível no momento.</div>
   </div>
-  </div>
+  <!-- </div>
   <div class="card"></div>
   <div class="card"></div>
-  <div class="card"></div>
-</div>
+  <div class="card"></div> -->
+</div></div>
+<style>
+  img {
+  transition: transform 0.3s ease, filter 0.3s ease; /* Combina transformações e filtros */
+}
 
+img:hover {
+  /*transform: scale(1.1) rotate(5deg);  Aumenta e gira levemente */
+  filter: brightness(0.8); /* Escurece ligeiramente */
+  border-color: #00aaff; 
+  transform: scale(1.1); 
+}
+</style>
 <h2 class="p-3 h2Underline">Cursos Realizados</h2>
 <div class="card-group">
   <div class="card">
@@ -312,9 +323,10 @@
             <div class="col-lg-2 footer-links">
               <h4>Links Úteis</h4>
               <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="sobre.html">Quem Somos</a></li>
                 <li><a href="capacitacao.html">Capacitação</a></li>
+                <li><a href="publicacoes.html">Publicações</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="contato.html">Contato</a></li>
               </ul>
@@ -323,7 +335,7 @@
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Divulgação</h4>
               <ul>
-                <li><a href="#">Cursos</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
                 <li><a href="https://www.daee.sp.gov.br/site/lgpd/" target="_blank">LGPD</a></li>
                 <li><a href="#">Portaria</a></li>
               </ul>
