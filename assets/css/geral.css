@@ -270,7 +270,24 @@ h6 {
     margin-left: 5px;
     transition: 0.3s;
   }
-
+  .navmenu li .btn {
+    background-image: rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    padding: 8px 32px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: #FFFFFF solid 2px;
+    text-align:center;
+    display:flex;
+    border-radius: 40px;
+  }
+  
+  .navmenu .btn:hover {
+    background: color-mix(in srgb, var(--blue-escuro-color), transparent 30%) !important;
+    color: #FFF;
+  }
   .navmenu li:last-child a {
     padding-right: 0;
   }
@@ -708,11 +725,13 @@ section,
 .imagensCarousel .carousel {
   width: 100%;
   min-height: 70vh;
-
   padding: 0;
   margin: 0;
   background-color: var(--background-color);
   position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .imagensCarousel img {
@@ -720,7 +739,7 @@ section,
   inset: 0;
   display: block;
   width: 100%;
-  height: 100%;
+  height: 100%; 
   object-fit: cover;
   z-index: 1;
 }
@@ -873,14 +892,23 @@ section,
   }
 }
 
+/* -------------------parceiros------------------------- */
+.parceiros.section{
+  /* background-color: var(--gray-color); */
+}
+.parceiros .container{
+  padding: 40px;
+}
+.parceiros img{
+  width:70%;
+}
 
 
 
 /* ------------------------------------------ */
 .section.painel {
   padding: 60px 0;
-  /* background-color: #1e201f; */
-  background-color: #428bca;
+  background-color: #353535; 
   color: #FFF;
 }
 
@@ -912,8 +940,7 @@ section,
 }
 
 .left-box {
-  /* background: #0c6904; */
-  background-color: #0EAF00;
+  background: #0c6904;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -1147,6 +1174,10 @@ section,
   width: 100%;
 }
 
+.atualidades .container p{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
 .atualidades .card h5 {
   color: var(--blue-escuro-color);
   text-align: center;
@@ -1181,6 +1212,7 @@ section,
 
 .atualidades .content p:last-child {
   margin-bottom: 0;
+  
 }
 
 .atualidades .pulsating-play-btn {
@@ -1573,16 +1605,6 @@ margin: 5px;}
 .card.livro img:hover{
   border: #0033CC solid 0px;
   transform: scale(1.1);
-}
-/* -------------------------------------------- */
-.parceiros.section{
-  background-color: var(--gray-color);
-}
-.parceiros .container{
-  padding: 40px;
-}
-.parceiros img{
-  width:100%;
 }
 
 /* ------------------------------------------------------- */
