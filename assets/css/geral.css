@@ -1151,7 +1151,7 @@ section,
   }
 }
 
-/* --------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
 .section.atualidades {
   padding: 60px 0;
 
@@ -1174,10 +1174,6 @@ section,
   width: 100%;
 }
 
-.atualidades .container p{
-  animation-duration: 3s;
-  animation-name: slidein;
-}
 .atualidades .card h5 {
   color: var(--blue-escuro-color);
   text-align: center;
