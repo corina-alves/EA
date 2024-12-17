@@ -838,7 +838,7 @@ section,
   animation: fadeInUp 1s both 0.4s;
 }
 
-.imagensCarousel .btn-get-started:hover {
+.imagensCarousel .btn-get-started:hover{
   background: color-mix(in srgb, var(--azul-escuro-color), transparent 20%);
 }
 
