@@ -802,6 +802,25 @@ section,
     max-width: 60%;
   }
 }
+.atualidades .btn-get-started {
+  color:var(--blue-escuro-color);
+  background: color-mix(in srgb, var(--background-color), transparent 80%);
+  border: var(--accent-color) solid 2px;
+  font-family: var(--heading-font);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  animation: fadeInUp 1s both 0.4s;
+}
+.atualidades .btn-get-started:hover {
+  background: color-mix(in srgb, var(--blue-escuro-color), transparent 20%);
+  color: var(--contrast-color);
+}
 
 .imagensCarousel .btn-get-started {
   color: var(--contrast-color);
@@ -820,7 +839,7 @@ section,
 }
 
 .imagensCarousel .btn-get-started:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: color-mix(in srgb, var(--azul-escuro-color), transparent 20%);
 }
 
 .imagensCarousel .carousel-control-prev,
